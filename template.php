@@ -19,8 +19,8 @@ $pdf->useTemplate($tplIdx);
 
 // Set font
 
-$fpdf->AddFont('ancient','','ancient.php');
-$fpdf->SetFont('ancient','',48); 
+$fpdf->AddFont('font','','font.php');
+$fpdf->SetFont('font','',48); 
 // Set color
 $pdf->SetTextColor(35, 31, 32);
 // Move to 500 points from the top
