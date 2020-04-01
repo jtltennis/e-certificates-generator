@@ -122,10 +122,26 @@ p {
   color: black;
 }
 
+.joke {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: .5rem;
+  color: black;
+}
+
 .mylink {
   font-weight: 600;
   font-size: 18px;
   margin-top: 1rem;
+  color: #001A35;
+}
+
+.mylink {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: .5rem;
   color: #001A35;
 }
 
