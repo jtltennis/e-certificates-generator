@@ -17,6 +17,8 @@ a:hover {
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #333;
   border: .05rem solid #333;
+  
+  
 }
 
 
@@ -26,8 +28,18 @@ a:hover {
 
 html,
 body {
+  margin: 0;
   height: 100%;
-  background-color: #fff;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -9999;
 }
 
 body {
@@ -46,7 +58,8 @@ body {
  * Header
  */
 .masthead {
-  margin-bottom: 2rem;
+  margin-bottom: 40rem;
+  
 }
 
 /*
@@ -54,6 +67,7 @@ body {
  */
 .cover {
   padding: 0 1.5rem;
+  
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
@@ -66,4 +80,57 @@ body {
  */
 .mastfoot {
   color: rgba(0, 0, 0, .5);
+}
+
+
+.pause {
+  font-size: 3rem;
+  cursor:pointer;
+  border-radius: 1px;
+  margin-top: 1rem;
+}
+
+.form-control {
+  margin-top: 2rem;
+}
+
+.btn {
+  margin-top: 2rem;
+  background-color: #001A35;
+  border-color: #001A35;
+
+}
+
+
+.cover-heading {
+
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+p {
+
+  margin-top: 2rem;
+  font-weight: 500;
+
+}
+
+.foottext {
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 1rem;
+  color: black;
+}
+
+.mylink {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 1rem;
+  color: #001A35;
+}
+
+
+.alert alert-danger alert-dismissible fade show {
+  
+  margin-top: 2rem;
 }
