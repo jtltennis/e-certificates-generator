@@ -18,8 +18,8 @@ $pdf->addPage('L', [792, 612]);
 $pdf->useTemplate($tplIdx);
 
 // Set font
-$pdf->AddFont('Diploma-Regular');
-$pdf->SetFont('Diploma-Regular', '', 48);
+$pdf->AddFont('roboto-bold');
+$pdf->SetFont('roboto-bold', '', 48);
 // Set color
 $pdf->SetTextColor(35, 31, 32);
 // Move to 500 points from the top
