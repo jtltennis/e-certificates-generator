@@ -10,7 +10,7 @@ $pdf->SetRightMargin(0);
 $pdf->SetAutoPageBreak(0);
 
 // Copy the template from the source file
-$pageCount = $pdf->setSourceFile('certificate.pdf');
+$pageCount = $pdf->setSourceFile('diploma.pdf');
 $tplIdx = $pdf->importPage(1);
 
 // Set the diemsion of the new PDF file
@@ -18,8 +18,8 @@ $pdf->addPage('L', [792, 612]);
 $pdf->useTemplate($tplIdx);
 
 // Set font
-$pdf->AddFont('diploma');
-$pdf->SetFont('diploma', '', 48);
+$pdf->AddFont('OLDENG');
+$pdf->SetFont('OLDENG', '', 48);
 // Set color
 $pdf->SetTextColor(35, 31, 32);
 // Move to 500 points from the top
