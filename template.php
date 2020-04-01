@@ -19,7 +19,7 @@ $pdf->useTemplate($tplIdx);
 
 // Set font
 $pdf->AddFont('Diploma-Regular');
-$pdf->SetFont('Diploma', '', 48);
+$pdf->SetFont('Diploma-Regular', '', 48);
 // Set color
 $pdf->SetTextColor(35, 31, 32);
 // Move to 500 points from the top
