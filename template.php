@@ -10,7 +10,7 @@ $pdf->SetRightMargin(0);
 $pdf->SetAutoPageBreak(0);
 
 // Copy the template from the source file
-$pageCount = $pdf->setSourceFile('diploma.pdf');
+$pageCount = $pdf->setSourceFile('certificate.pdf');
 $tplIdx = $pdf->importPage(1);
 
 // Set the diemsion of the new PDF file
