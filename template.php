@@ -18,8 +18,9 @@ $pdf->addPage('L', [792, 612]);
 $pdf->useTemplate($tplIdx);
 
 // Set font
-$pdf->AddFont('ancient');
-$pdf->SetFont('ancient', '', 48);
+
+$fpdf->AddFont('ancient','','ancient.php');
+$fpdf->SetFont('ancient','',48); 
 // Set color
 $pdf->SetTextColor(35, 31, 32);
 // Move to 500 points from the top
