@@ -18,8 +18,8 @@ $pdf->addPage('L', [792, 612]);
 $pdf->useTemplate($tplIdx);
 
 // Set font
-$pdf->AddFont('oldenglish');
-$pdf->SetFont('oldenglish', '', 48);
+$pdf->AddFont('diploma');
+$pdf->SetFont('diploma', '', 48);
 // Set color
 $pdf->SetTextColor(35, 31, 32);
 // Move to 500 points from the top
