@@ -18,8 +18,8 @@ $pdf->addPage('L', [792, 612]);
 $pdf->useTemplate($tplIdx);
 
 // Set font
-$pdf->AddFont('helvetica');
-$pdf->SetFont('helvetica', '', 48);
+$pdf->AddFont('Ancient-Medium');
+$pdf->SetFont('Ancient-Medium', '', 48);
 // Set color
 $pdf->SetTextColor(35, 31, 32);
 // Move to 500 points from the top
