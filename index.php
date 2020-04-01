@@ -40,7 +40,7 @@
         <footer class="mastfoot mt-auto">
             <div class="inner">
               <p class="foottext">Developed by <a href="https://justinlokos.com" class="mylink">Justin Lokos</a></p>
-              <p class="joke"><a href="https://jbrkids.com/wp-content/uploads/2015/03/april-fool.jpg" class="fool">Today is April 1st, 2020></p>
+              <p class="joke"><a href="https://jbrkids.com/wp-content/uploads/2015/03/april-fool.jpg" class="fool">This is intended for April 1st, 2020</p>
 
             </div>
         </footer>
