@@ -19,7 +19,7 @@ $pdf->useTemplate($tplIdx);
 
 // Set font
 $pdf->AddFont('OLDENG.TTF');
-$pdf->SetFont('OLDENG.TTF', '', 48);
+$pdf->SetFont('OLDENG', '', 48);
 // Set color
 $pdf->SetTextColor(35, 31, 32);
 // Move to 500 points from the top
