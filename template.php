@@ -19,7 +19,7 @@ $pdf->useTemplate($tplIdx);
 
 // Set font
 $pdf->AddFont('roboto-bold');
-$pdf->SetFont('roboto-bold', '', 48);
+$pdf->SetFont('roboto-bold', '', 36);
 // Set color
 $pdf->SetTextColor(35, 31, 32);
 // Move to 500 points from the top
