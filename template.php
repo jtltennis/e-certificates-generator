@@ -25,5 +25,5 @@ $pdf->SetTextColor(35, 31, 32);
 // Move to 500 points from the top
 $pdf->ln(250);
 // Centered text
-$pdf->Cell(20,10, $name,1,1,'C');
+$pdf->Cell(0,0, $name,5,1,'C');
 $pdf->Output('I', 'diploma.pdf');
