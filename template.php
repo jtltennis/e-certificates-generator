@@ -14,7 +14,7 @@ $pageCount = $pdf->setSourceFile('diploma.pdf');
 $tplIdx = $pdf->importPage(1);
 
 // Set the diemsion of the new PDF file
-$pdf->addPage('L', Letter);
+$pdf->addPage('L', [792, 612]);
 $pdf->useTemplate($tplIdx);
 
 // Set font
@@ -25,5 +25,5 @@ $pdf->SetTextColor(35, 31, 32);
 // Move to 500 points from the top
 $pdf->ln(250);
 // Centered text
-$pdf->Cell(0,0, $name,3,1,'C');
+$pdf->Cell(0, 0, $name, 0, 1, 'C');
 $pdf->Output('I', 'diploma.pdf');
