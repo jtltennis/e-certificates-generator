@@ -14,7 +14,7 @@ $pageCount = $pdf->setSourceFile('diploma.pdf');
 $tplIdx = $pdf->importPage(1);
 
 // Set the diemsion of the new PDF file
-$pdf->addPage(,);
+$pdf->addPage('L', Letter);
 $pdf->useTemplate($tplIdx);
 
 // Set font
